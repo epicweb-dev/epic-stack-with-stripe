@@ -26,6 +26,13 @@ const schema = z.object({
 	AWS_REGION: z.string(),
 	AWS_ENDPOINT_URL_S3: z.string().url(),
 	BUCKET_NAME: z.string(),
+
+	// Stripe Configuration
+	STRIPE_BASIC_PRODUCT: z.string(),
+	STRIPE_PREMIUM_PRODUCT: z.string(),
+	STRIPE_SECRET_KEY: z.string(),
+	STRIPE_BASIC_PAYMENT_LINK: z.string().url(),
+	STRIPE_PREMIUM_PAYMENT_LINK: z.string().url(),
 })
 
 declare global {

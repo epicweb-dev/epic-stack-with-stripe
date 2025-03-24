@@ -16,6 +16,7 @@ model User {
   email    String  @unique
   username String  @unique
   name     String?
+  stripeId String?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

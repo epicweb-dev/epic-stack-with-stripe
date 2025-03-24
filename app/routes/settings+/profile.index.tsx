@@ -138,6 +138,11 @@ export default function EditUserProfile({ loaderData }: Route.ComponentProps) {
 					</Link>
 				</div>
 				<div>
+					<Link to="subscription">
+						<Icon name="plus">Manage Subscription</Icon>
+					</Link>
+				</div>
+				<div>
 					<Link to="two-factor">
 						{loaderData.isTwoFactorEnabled ? (
 							<Icon name="lock-closed">2FA is enabled</Icon>
