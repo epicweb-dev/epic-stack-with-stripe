@@ -114,6 +114,7 @@ async function seed() {
 			email: 'kody@kcd.dev',
 			username: 'kody',
 			name: 'Kody',
+			stripeId: 'acct_1PZ55555555555555555555',
 			password: { create: createPassword('kodylovesyou') },
 			connections: {
 				create: {
