@@ -139,7 +139,7 @@ export default function EditUserProfile({ loaderData }: Route.ComponentProps) {
 				</div>
 				<div>
 					<Link to="subscription">
-						<Icon name="plus">Manage Subscription</Icon>
+						<Icon name="stripe">Manage Subscription</Icon>
 					</Link>
 				</div>
 				<div>

@@ -11,7 +11,7 @@ import { type Route } from './+types/profile.subscription.ts'
 import { type BreadcrumbHandle } from './profile.tsx'
 
 export const handle: BreadcrumbHandle & SEOHandle = {
-	breadcrumb: <Icon name="plus">Subscription</Icon>,
+	breadcrumb: <Icon name="stripe">Subscription</Icon>,
 	getSitemapEntries: () => null,
 }
 
